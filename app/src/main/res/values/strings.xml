@@ -7,7 +7,15 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_meat">Carne/Peixe</string>
+    <string name="menu_milk">Laticínios</string>
+    <string name="menu_grocery">Mercearia</string>
+    <string name="menu_fruit">Fruta/Legumes</string>
+    <string name="menu_rice">Arroz/Massa</string>
+    <string name="menu_water">Bebidas</string>
+    <string name="menu_bread">Pão/Bolachas</string>
+    <string name="menu_gastr">Gastronomia</string>
+    <string name="menu_dessert">Sobremesa</string>
+    <string name="menu_spices">Temperos</string>
+
 </resources>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="meat">
+        <item>Costelatas</item>
+        <item>Lombo</item>
+        <item>Tiras Entrecosto</item>
+        <item>Bifes</item>
+        <item>Frango</item>
+        <item>Cochas</item>
+        <item>Peru</item>
+        <item>Coelho</item>
+        <item>Tiras Bariga</item>
+        <item>Figado</item>
+        <item>Moelas</item>
+        <item>Cachaço</item>
+        <item>Carne Picada</item>
+        <item>Salsichas</item>
+        <item>Hamburgeres</item>
+    </array>
+    <array name="Fish">
+        <item>Bacalhão</item>
+        <item>Salmão</item>
+        <item>Robalo</item>
+        <item>Pescada</item>
+        <item>Dourada</item>
+        <item>RedFish</item>
+        <item>Carapão</item>
+        <item>Sardina</item>
+        <item>Perca</item>
+        <item>Polvo</item>
+        <item>Lulas</item>
+        <item>Potas</item>
+        <item>Mixilhão</item>
+        <item>Camarão</item>
+
+    </array>
+    <array name="Milk">
+        <item>Manteiga</item>
+        <item>Leite</item>
+        <item>Queijo Fresco</item>
+        <item>Iogurtes</item>
+        <item>Iogurte Natural</item>
+        <item>Nata</item>
+        <item>Leite Condensado</item>
+
+    </array>
+    <array name="Fruits">
+        <item>Banana</item>
+        <item>Maçã</item>
+        <item>Pera</item>
+        <item>Laranja</item>
+        <item>Tangerina</item>
+        <item>Kiwi</item>
+        <item>Pessego</item>
+        <item>Manga</item>
+        <item>Abacaxi</item>
+        <item>Papaia</item>
+        <item>Limão</item>
+        <item>Uvas</item>
+        <item>Ameixa</item>
+        <item>Diospiro</item>
+        <item>Sereja</item>
+        <item>Maracujá</item>
+        <item>Melancia</item>
+        <item>Melão</item>
+        <item>Morango</item>
+        <item>Pêssego</item>
+        <item>Romã</item>
+
+    </array>
+    <array name="Vegetables">
+        <item>Alface</item>
+        <item>Tomate</item>
+        <item>Batata</item>
+        <item>Broculos</item>
+        <item>Pepino</item>
+        <item>Couve Branca</item>
+        <item>Couve Coração</item>
+        <item>Couve Flor</item>
+        <item>Alho</item>
+        <item>Alho Frances</item>
+        <item>Pimenta</item>
+        <item>Cebola</item>
+        <item>Nabo</item>
+        <item>Abobora</item>
+        <item>Cenoura</item>
+        <item>Batata Doçe</item>
+        <item>Rucula</item>
+        <item>Ervilhas</item>
+        <item>Espinafre</item>
+        <item>Courgete</item>
+        <item>Feijão</item>
+        <item>Feijão Verde</item>
+        <item>Grão</item>
+
+    </array>
+    <array name="Grocery">
+        <item>Fiambre</item>
+        <item>Queijo</item>
+        <item>Becon</item>
+
+    </array>
+    <array name="Groats_Pasta">
+        <item>Arroz Agulha</item>
+        <item>Arroz Carolino</item>
+        <item>Esparguete</item>
+        <item>Cotuvelos</item>
+        <item>Espirais</item>
+        <item>Tricolor</item>
+        <item>Flocos Aveia</item>
+        <item>Semolina</item>
+
+    </array>
+    <array name="Drink">
+        <item>Água</item>
+        <item>Sumo</item>
+        <item>Café</item>
+        <item>Cevada</item>
+        <item>Serveja</item>
+        <item>Vinho Branco</item>
+        <item>Vinho Tinto</item>
+        <item>Vinho Verde</item>
+        <item>Vinho Rosé</item>
+        <item>Sangria</item>
+
+    </array>
+    <array name="Bread">
+        <item>Pão Avõ</item>
+        <item>Pão Mistura</item>
+        <item>Pão Cimentes</item>
+        <item>Pão Bico</item>
+
+    </array>
+    <array name="Gastronomy">
+        <item>Lata Atum</item>
+        <item>Lata Sardinha</item>
+        <item>Lata Cavala</item>
+        <item>Lata Ervilhas</item>
+        <item>Lata Milho</item>
+        <item>Lata Grão Bico</item>
+        <item>Cafe Moido</item>
+        <item>Chá Preto</item>
+        <item>Chá Verde</item>
+        <item>Chá Camomila</item>
+        <item>Óleo Alimentar</item>
+        <item>Azeite</item>
+        <item>Azeitonas</item>
+
+    </array>
+    <array name="Dessert">
+        <item>Pudim</item>
+        <item>Gelatina</item>
+        <item>Gelado</item>
+        <item>Chocolate Preto</item>
+        <item>Chocolate Leite</item>
+        <item>Chocolates</item>
+        <item>Rebuçados</item>
+        <item>Profitroles</item>
+
+    </array>
+    <array name="Spices">
+        <item>Sal Groso</item>
+        <item>Sal Fino</item>
+        <item>Açucar Branco</item>
+        <item>Açucar Amarelo</item>
+        <item>Pimenta Preta</item>
+        <item>Pimenta Doçe</item>
+        <item>Salsa</item>
+        <item>Maionese</item>
+        <item>Ketchup</item>
+        <item>Mostarda</item>
+        <item>Piri-Piri</item>
+
+    </array>
+</resources>

@@ -1,20 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:id="@+id/nav_meat"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/menu_meat" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/nav_fruit"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/menu_fruit" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_milk"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/menu_milk" />
+        <item
+            android:id="@+id/nav_grocery"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/menu_grocery" />
+        <item
+            android:id="@+id/nav_rice"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/menu_rice" />
+        <item
+            android:id="@+id/nav_water"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/menu_water" />
+        <item
+            android:id="@+id/nav_bread"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/menu_bread" />
+        <item
+            android:id="@+id/nav_gastr"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/menu_gastr" />
+        <item
+            android:id="@+id/nav_dessert"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/menu_dessert" />
+        <item
+            android:id="@+id/nav_spices"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/menu_spices" />
     </group>
 </menu>
