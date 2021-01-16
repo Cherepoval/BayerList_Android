@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <array name="meat">
+    <string-array name="meat">
         <item>Costelatas</item>
         <item>Lombo</item>
         <item>Tiras Entrecosto</item>
@@ -16,8 +16,9 @@
         <item>Carne Picada</item>
         <item>Salsichas</item>
         <item>Hamburgeres</item>
-    </array>
-    <array name="Fish">
+    </string-array>
+
+    <string-array name="Fish">
         <item>Bacalhão</item>
         <item>Salmão</item>
         <item>Robalo</item>
@@ -32,9 +33,9 @@
         <item>Potas</item>
         <item>Mixilhão</item>
         <item>Camarão</item>
+    </string-array>
 
-    </array>
-    <array name="Milk">
+    <string-array name="Milk">
         <item>Manteiga</item>
         <item>Leite</item>
         <item>Queijo Fresco</item>
@@ -42,9 +43,9 @@
         <item>Iogurte Natural</item>
         <item>Nata</item>
         <item>Leite Condensado</item>
+    </string-array>
 
-    </array>
-    <array name="Fruits">
+    <string-array name="Fruits">
         <item>Banana</item>
         <item>Maçã</item>
         <item>Pera</item>
@@ -66,9 +67,9 @@
         <item>Morango</item>
         <item>Pêssego</item>
         <item>Romã</item>
+    </string-array>
 
-    </array>
-    <array name="Vegetables">
+    <string-array name="Vegetables">
         <item>Alface</item>
         <item>Tomate</item>
         <item>Batata</item>
@@ -92,15 +93,15 @@
         <item>Feijão</item>
         <item>Feijão Verde</item>
         <item>Grão</item>
+    </string-array>
 
-    </array>
-    <array name="Grocery">
+    <string-array name="Grocery">
         <item>Fiambre</item>
         <item>Queijo</item>
         <item>Becon</item>
+    </string-array>
 
-    </array>
-    <array name="Groats_Pasta">
+    <string-array name="Groats_Pasta">
         <item>Arroz Agulha</item>
         <item>Arroz Carolino</item>
         <item>Esparguete</item>
@@ -109,9 +110,9 @@
         <item>Tricolor</item>
         <item>Flocos Aveia</item>
         <item>Semolina</item>
+    </string-array>
 
-    </array>
-    <array name="Drink">
+    <string-array name="Drink">
         <item>Água</item>
         <item>Sumo</item>
         <item>Café</item>
@@ -122,16 +123,16 @@
         <item>Vinho Verde</item>
         <item>Vinho Rosé</item>
         <item>Sangria</item>
+    </string-array>
 
-    </array>
-    <array name="Bread">
+    <string-array name="Bread">
         <item>Pão Avõ</item>
         <item>Pão Mistura</item>
         <item>Pão Cimentes</item>
         <item>Pão Bico</item>
+    </string-array>
 
-    </array>
-    <array name="Gastronomy">
+    <string-array name="Gastronomy">
         <item>Lata Atum</item>
         <item>Lata Sardinha</item>
         <item>Lata Cavala</item>
@@ -145,9 +146,9 @@
         <item>Óleo Alimentar</item>
         <item>Azeite</item>
         <item>Azeitonas</item>
+    </string-array>
 
-    </array>
-    <array name="Dessert">
+    <string-array name="Dessert">
         <item>Pudim</item>
         <item>Gelatina</item>
         <item>Gelado</item>
@@ -156,9 +157,9 @@
         <item>Chocolates</item>
         <item>Rebuçados</item>
         <item>Profitroles</item>
+    </string-array>
 
-    </array>
-    <array name="Spices">
+    <string-array name="Spices">
         <item>Sal Groso</item>
         <item>Sal Fino</item>
         <item>Açucar Branco</item>
@@ -170,6 +171,5 @@
         <item>Ketchup</item>
         <item>Mostarda</item>
         <item>Piri-Piri</item>
-
-    </array>
+    </string-array>
 </resources>

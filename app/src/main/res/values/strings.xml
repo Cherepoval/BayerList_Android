@@ -17,5 +17,6 @@
     <string name="menu_gastr">Gastronomia</string>
     <string name="menu_dessert">Sobremesa</string>
     <string name="menu_spices">Temperos</string>
+    <string name="list_products">Список Продуктов</string>
 
 </resources>
