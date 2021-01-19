@@ -18,5 +18,8 @@
     <string name="menu_dessert">Sobremesa</string>
     <string name="menu_spices">Temperos</string>
     <string name="list_products">Список Продуктов</string>
+    <string name="menu_home">menu_home</string>
+    <string name="menu_gallery">menu_gallery</string>
+    <string name="menu_slideshow">menu_slideshow</string>
 
 </resources>
