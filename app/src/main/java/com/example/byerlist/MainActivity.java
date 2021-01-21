@@ -19,6 +19,9 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener  {
     private ListView list;
     private String[] arr;
@@ -33,8 +36,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         list = findViewById(R.id.listArray);
         arr = getResources().getStringArray(R.array.meat);
         adapter = new ArrayAdapter<>(this,
-                android.R.layout.simple_list_item_1,
-                arr);
+                android.R.layout.simple_list_item_1,new ArrayList<String>(Arrays.asList(arr)));
         list.setAdapter(adapter);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -64,25 +66,76 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onNavigationItemSelected(MenuItem item) {
         int id = item.getItemId();
         if(id == R.id.nav_meat) {
-
+            arr = getResources().getStringArray(R.array.meat);
+            adapter.clear();
+            adapter.addAll(arr);
+            adapter.notifyDataSetChanged();
         }
         else if (id == R.id.nav_bread) {
+            arr = getResources().getStringArray(R.array.bread);
+            adapter.clear();
+            adapter.addAll(arr);
+            adapter.notifyDataSetChanged();
 
         }else if (id == R.id.nav_fish) {
+            arr = getResources().getStringArray(R.array.fish);
+            adapter.clear();
+            adapter.addAll(arr);
+            adapter.notifyDataSetChanged();
 
         }else if (id == R.id.nav_fruit) {
+            arr = getResources().getStringArray(R.array.fruits);
+            adapter.clear();
+            adapter.addAll(arr);
+            adapter.notifyDataSetChanged();
 
         }else if (id == R.id.nav_dessert) {
+            arr = getResources().getStringArray(R.array.dessert);
+            adapter.clear();
+            adapter.addAll(arr);
+            adapter.notifyDataSetChanged();
 
         }else if (id == R.id.nav_gastr) {
+            arr = getResources().getStringArray(R.array.gastronomy);
+            adapter.clear();
+            adapter.addAll(arr);
+            adapter.notifyDataSetChanged();
 
         }else if (id == R.id.nav_grocery) {
+            arr = getResources().getStringArray(R.array.grocery);
+            adapter.clear();
+            adapter.addAll(arr);
+            adapter.notifyDataSetChanged();
+
+        }else if (id == R.id.nav_water) {
+            arr = getResources().getStringArray(R.array.drink);
+            adapter.clear();
+            adapter.addAll(arr);
+            adapter.notifyDataSetChanged();
 
         }else if (id == R.id.nav_milk) {
+            arr = getResources().getStringArray(R.array.milk);
+            adapter.clear();
+            adapter.addAll(arr);
+            adapter.notifyDataSetChanged();
 
+        }else if (id == R.id.nav_rice) {
+            arr = getResources().getStringArray(R.array.groats_pasta);
+            adapter.clear();
+            adapter.addAll(arr);
+            adapter.notifyDataSetChanged();
+
+        }else if (id == R.id.nav_spices) {
+            arr = getResources().getStringArray(R.array.spices);
+            adapter.clear();
+            adapter.addAll(arr);
+            adapter.notifyDataSetChanged();
         }
-        drawer.closeDrawer(GravityCompat.START);
-        return true;
+
+
+
+            drawer.closeDrawer(GravityCompat.START);
+            return true;
 
     }
 

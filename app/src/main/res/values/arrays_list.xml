@@ -18,7 +18,7 @@
         <item>Hamburgeres</item>
     </string-array>
 
-    <string-array name="Fish">
+    <string-array name="fish">
         <item>Bacalhão</item>
         <item>Salmão</item>
         <item>Robalo</item>
@@ -35,7 +35,7 @@
         <item>Camarão</item>
     </string-array>
 
-    <string-array name="Milk">
+    <string-array name="milk">
         <item>Manteiga</item>
         <item>Leite</item>
         <item>Queijo Fresco</item>
@@ -45,7 +45,7 @@
         <item>Leite Condensado</item>
     </string-array>
 
-    <string-array name="Fruits">
+    <string-array name="fruits">
         <item>Banana</item>
         <item>Maçã</item>
         <item>Pera</item>
@@ -69,7 +69,7 @@
         <item>Romã</item>
     </string-array>
 
-    <string-array name="Vegetables">
+    <string-array name="vegetables">
         <item>Alface</item>
         <item>Tomate</item>
         <item>Batata</item>
@@ -95,13 +95,13 @@
         <item>Grão</item>
     </string-array>
 
-    <string-array name="Grocery">
+    <string-array name="grocery">
         <item>Fiambre</item>
         <item>Queijo</item>
         <item>Becon</item>
     </string-array>
 
-    <string-array name="Groats_Pasta">
+    <string-array name="groats_pasta">
         <item>Arroz Agulha</item>
         <item>Arroz Carolino</item>
         <item>Esparguete</item>
@@ -112,7 +112,7 @@
         <item>Semolina</item>
     </string-array>
 
-    <string-array name="Drink">
+    <string-array name="drink">
         <item>Água</item>
         <item>Sumo</item>
         <item>Café</item>
@@ -125,14 +125,14 @@
         <item>Sangria</item>
     </string-array>
 
-    <string-array name="Bread">
+    <string-array name="bread">
         <item>Pão Avõ</item>
         <item>Pão Mistura</item>
         <item>Pão Cimentes</item>
         <item>Pão Bico</item>
     </string-array>
 
-    <string-array name="Gastronomy">
+    <string-array name="gastronomy">
         <item>Lata Atum</item>
         <item>Lata Sardinha</item>
         <item>Lata Cavala</item>
@@ -148,7 +148,7 @@
         <item>Azeitonas</item>
     </string-array>
 
-    <string-array name="Dessert">
+    <string-array name="dessert">
         <item>Pudim</item>
         <item>Gelatina</item>
         <item>Gelado</item>
@@ -159,7 +159,7 @@
         <item>Profitroles</item>
     </string-array>
 
-    <string-array name="Spices">
+    <string-array name="spices">
         <item>Sal Groso</item>
         <item>Sal Fino</item>
         <item>Açucar Branco</item>
