@@ -21,7 +21,7 @@
         app:srcCompat="@drawable/products" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="210dp"
         android:layout_height="match_parent"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
         android:text="@string/list_products"

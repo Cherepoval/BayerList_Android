@@ -10,4 +10,5 @@
     <color name="Red_color" />
     <color name="Orange">#FF9800</color>
     <color name="Orange_2">#FF5722</color>
+    <color name="icon" />
 </resources>
