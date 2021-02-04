@@ -22,5 +22,7 @@
     <string name="menu_home">menu_home</string>
     <string name="menu_gallery">menu_gallery</string>
     <string name="menu_slideshow">menu_slideshow</string>
+    <string name="compras">Compras</string>
+    <string name="outbutton">Sair</string>
 
 </resources>

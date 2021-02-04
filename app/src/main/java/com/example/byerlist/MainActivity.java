@@ -1,43 +1,46 @@
 package com.example.byerlist;
 
-import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 
-import com.google.android.material.navigation.NavigationView;
-
 import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.core.view.GravityCompat;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
-import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
+
+import com.google.android.material.navigation.NavigationView;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener  {
-    private ListView list;
     private String[] arr;
     private ArrayAdapter<String> adapter;
-    private AppBarConfiguration mAppBarConfiguration;
     private DrawerLayout drawer;
     private Toolbar toolbar;
+    private final ArrayList<String> arr2;
+
+
+    public MainActivity(ArrayList<String> arr2) {
+        this.arr2 = arr2;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        list = findViewById(R.id.listArray);
+        ListView list = findViewById(R.id.listArray);
         arr = getResources().getStringArray(R.array.meat);
         adapter = new ArrayAdapter<>(this,
-                android.R.layout.simple_list_item_1,new ArrayList<String>(Arrays.asList(arr)));
+                android.R.layout.simple_list_item_1, new ArrayList<>(Arrays.asList(arr)));
         list.setAdapter(adapter);
         toolbar = findViewById(R.id.toolbar);
         toolbar.setTitle(R.string.menu_meat);
@@ -51,10 +54,35 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
+        ListView list2 = findViewById(R.id.list_tobye);
+        list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
+                ListView textView = findViewById(R.id.listArray);
+                String itemName = textView.getSelectedItem().toString();
+                arr2.add(itemName);
+
+            }
+
+        });
+        ArrayAdapter<String> adapter2 = new ArrayAdapter<>(this,
+                android.R.layout.simple_expandable_list_item_1, new ArrayList<String>(arr2));
+        list2.setAdapter(adapter2);
+
+        Button OutButton = findViewById(R.id.button_out);
+
+        OutButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,choised_items_activity.class);
+                startActivity(intent);
+            }
+        });
 
 
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -152,6 +180,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     }
 
-    public void click_meat(MenuItem item) {
-    }
+
+
 }
