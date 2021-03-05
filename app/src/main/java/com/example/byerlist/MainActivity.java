@@ -24,19 +24,20 @@ import java.util.Arrays;
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener  {
     private String[] arr;
     private ArrayAdapter<String> adapter;
+
     private DrawerLayout drawer;
     private Toolbar toolbar;
-    private final ArrayList<String> arr2;
+
+    private ArrayList<String> arr2;
 
 
-    public MainActivity(ArrayList<String> arr2) {
-        this.arr2 = arr2;
-    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        this.arr2 = new ArrayList<>();
         ListView list = findViewById(R.id.listArray);
         arr = getResources().getStringArray(R.array.meat);
         adapter = new ArrayAdapter<>(this,
@@ -54,31 +55,43 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
-        ListView list2 = findViewById(R.id.list_tobye);
-        list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
+
+
+
+        list.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 ListView textView = findViewById(R.id.listArray);
                 String itemName = textView.getSelectedItem().toString();
                 arr2.add(itemName);
-
+                System.out.println(arr2);
+                if (arr2 == null) throw new AssertionError();
             }
 
-        });
-        ArrayAdapter<String> adapter2 = new ArrayAdapter<>(this,
-                android.R.layout.simple_expandable_list_item_1, new ArrayList<String>(arr2));
-        list2.setAdapter(adapter2);
-
-        Button OutButton = findViewById(R.id.button_out);
-
-        OutButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,choised_items_activity.class);
-                startActivity(intent);
+            public void onNothingSelected(AdapterView<?> parent) {
+
             }
+
+
         });
+
+       // if (arr2 == null) throw new AssertionError();
+
+
+            Button outButton = findViewById(R.id.button2);
+            outButton.setOnClickListener(new View.OnClickListener() {
+
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(MainActivity.this, choised_items_activity.class);
+                    intent.putStringArrayListExtra("selected", arr2);
+                    startActivity(intent);
+
+                }
+            });
 
 
     }
